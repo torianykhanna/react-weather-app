@@ -23,9 +23,9 @@ export default function App() {
             open-sourced on GitHub
           </a>{" "}
           and{" "}
-          <a href="#" target="_blank" rel="noreferrer">
+          {/* <a href="#" target="_blank" rel="noreferrer">
             hosted on Netlify
-          </a>
+          </a> */}
         </footer>
       </div>
     </div>
