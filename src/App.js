@@ -1,11 +1,15 @@
 import React from "react";
 import "./App.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
       <div className="Container">
-        <footer>
+        <Weather />
+      </div>
+      <footer>
+        <div className="Links">
           This project was coded by{" "}
           <a
             href="https://github.com/torianykhanna"
@@ -23,11 +27,16 @@ export default function App() {
             open-sourced on GitHub
           </a>{" "}
           and{" "}
-          {/* <a href="#" target="_blank" rel="noreferrer">
+          <a
+            href="https://react-weahter-app-training.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
             hosted on Netlify
-          </a> */}
-        </footer>
-      </div>
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
