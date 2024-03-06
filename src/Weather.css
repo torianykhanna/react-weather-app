@@ -32,3 +32,44 @@
 .Properties ul {
   margin: 40px;
 }
+
+form {
+  display: block;
+  margin-top: 0;
+}
+
+.SearchInput {
+  background-color: #f1eeee;
+  color: #7588b3;
+  width: 70%;
+}
+
+.SearchButton {
+  width: 105px;
+  margin-left: 10px;
+  background-color: #098ba1;
+  color: #ffff;
+}
+
+.SearchButton,
+.SearchInput {
+  font-size: 16px;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.Weather {
+  margin: 30px;
+}
+
+.CurrentWeather {
+  margin-top: 25px;
+}
+
+.Units {
+  font-size: 30px;
+  position: relative;
+  top: -30px;
+  left: -20px;
+}
