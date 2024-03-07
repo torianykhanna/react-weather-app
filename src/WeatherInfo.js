@@ -14,9 +14,9 @@ export default function WeatherInfo(props) {
         </ul>
       </div>
       <div className="Properties">
+        <img src={props.data.icon} alt={props.data.description} />
         <div className="Temperature">
-          🌤️ {Math.round(props.data.temperature)}{" "}
-          <span className="Units">°C</span>
+          {Math.round(props.data.temperature)} <span className="Units">°C</span>
         </div>
         <ul>
           <li>Humidity: {props.data.humidity}%</li>

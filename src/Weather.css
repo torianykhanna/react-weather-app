@@ -5,7 +5,7 @@
 }
 
 .Temperature {
-  font-size: 70px;
+  font-size: 80px;
 }
 
 .Indicators {
@@ -72,4 +72,8 @@ form {
   position: relative;
   top: -30px;
   left: -20px;
+}
+
+img {
+  width: 115px;
 }
