@@ -5,7 +5,8 @@
 }
 
 .Temperature {
-  font-size: 80px;
+  font-size: 75px;
+  width: 170px;
 }
 
 .Indicators {
@@ -30,7 +31,7 @@
 }
 
 .Properties ul {
-  margin: 40px;
+  margin: 20px;
 }
 
 form {
@@ -59,19 +60,14 @@ form {
   border-radius: 5px;
 }
 
-.Weather {
-  margin: 30px;
-}
-
 .CurrentWeather {
   margin-top: 25px;
 }
 
 .Units {
-  font-size: 30px;
+  font-size: 25px;
   position: relative;
   top: -30px;
-  left: -20px;
 }
 
 img {
