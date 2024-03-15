@@ -1,12 +1,20 @@
+.Weather {
+  margin: 25px;
+}
+
 .Properties {
   display: flex;
   justify-content: flex-start;
-  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #f1eeee;
+  border-radius: 15px;
+  width: 100%;
+  padding: 2px;
 }
 
 .Temperature {
-  font-size: 75px;
-  width: 170px;
+  font-size: 70px;
+  width: 150px;
 }
 
 .Indicators {
@@ -19,19 +27,22 @@
 
 .Indicators ul {
   margin: 0;
-  padding: 0;
+  padding: 5px 0;
 }
 
 .Indicators li,
 .Properties li {
   font-size: 16px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 20px;
   list-style: none;
+  padding: 2px 0;
+  text-transform: capitalize;
 }
 
 .Properties ul {
-  margin: 20px;
+  margin: 0;
+  padding: 25px 0;
 }
 
 form {
@@ -42,12 +53,12 @@ form {
 .SearchInput {
   background-color: #f1eeee;
   color: #7588b3;
-  width: 70%;
+  width: 71%;
 }
 
 .SearchButton {
-  width: 105px;
-  margin-left: 10px;
+  width: 18%;
+  margin-left: 15px;
   background-color: #098ba1;
   color: #ffff;
 }
@@ -65,11 +76,18 @@ form {
 }
 
 .Units {
-  font-size: 25px;
+  font-size: 30px;
   position: relative;
   top: -30px;
 }
 
 .Icon {
   padding-top: 15px;
+}
+
+.OneDay {
+  background-color: #f1eeee;
+  border-radius: 15px;
+  margin: 4px;
+  padding: 15px;
 }
