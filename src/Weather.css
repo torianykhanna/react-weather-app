@@ -37,6 +37,9 @@
   line-height: 20px;
   list-style: none;
   padding: 2px 0;
+}
+
+.Indicators li {
   text-transform: capitalize;
 }
 
